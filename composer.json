@@ -1,0 +1,9 @@
+{
+    "name": "ncut/auto",
+    "autoload": {
+        "psr-4": {
+            "Ncut\\Auto\\": "src/"
+        }
+    },
+    "require": {}
+}
