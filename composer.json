@@ -6,12 +6,18 @@
         }
     },
     "require": {
-        "monolog/monolog": "^3.5"
+        "monolog/monolog": "^3.5",
+        "nesbot/carbon":"^1.21"
+
     },
     "autoload": {
         "psr-4": {
 		"Demo\\": "./src/Demo"
 	}
-	}
-
+	},
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
 }
